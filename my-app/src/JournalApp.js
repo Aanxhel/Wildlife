@@ -2,15 +2,13 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import {Button, Alert} from 'react-bootstrap'
-
 import Caballo from './img/caballo.png'
+
 
 function JournalApp(){
     return(
         <div className='JournalApp'>
-            <h1>JournalApp</h1>
-            
-
+<header id="main-header">
             <nav class="navbar 
             navbar-expand-sm 
             bg-dark 
@@ -35,7 +33,18 @@ function JournalApp(){
             </ul>
 
             </nav>
+            </header>
 
+            <div >                                 
+                <img src ={Caballo} class="mx-auto" ></img>
+            </div>
+
+            <div >                                 
+                <img src ={Caballo} class="mx-auto" ></img>
+            </div>
+            <div >                                 
+                <img src ={Caballo} class="mx-auto" ></img>
+            </div>
             <div >                                 
                 <img src ={Caballo} class="mx-auto" ></img>
             </div>

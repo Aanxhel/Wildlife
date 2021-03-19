@@ -1,13 +1,14 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+import {Button, Alert} from 'react-bootstrap'
 
 function JournalApp(){
     return(
-        <div>
+        <div className='JournalApp'>
             <h1>JournalApp</h1>
-            <hr></hr>
-          
+            
+            <Button>boton</Button>
 
             <nav class="navbar 
             navbar-expand-sm 
@@ -15,7 +16,7 @@ function JournalApp(){
             navbar-dark
             justify-content-center">
                 
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" >
                 <li class="nav-item">
                 <a class="navbar-brand" href="#">Quienes somos?</a>
                 </li>
@@ -34,10 +35,10 @@ function JournalApp(){
 
             </nav>
             
+            
 
 
-
-
+            
 
         </div>
     );

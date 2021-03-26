@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Header.js";
+import Footer from "./Footer"
 
 
 
@@ -35,11 +36,9 @@ function JournalApp() {
           </div>
         
       </div>
-
-      <div class="jumbotron text-center">
-        <p>Footer</p>
-        
-      </div>
+      
+      <Footer/>
+      
     </div>
   );
 }

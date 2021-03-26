@@ -39,8 +39,7 @@ img{
   padding-left: 1rem;
 }
 img:hover{
-  width: 7rem;
-  height: 7rem;
+  transform: scale(1.2);
   transition: 0.5s;
 }
 

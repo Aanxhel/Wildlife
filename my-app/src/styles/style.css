@@ -172,3 +172,21 @@ a:hover{
   display: flex;
   justify-content: center;
 }
+
+/*descripcion de Footer P*/
+
+#footerEdit{
+  font-family: verdana,Arial, Helvetica, sans-serif;
+  
+  background-color: #1c3816;
+  color: rgb(255, 255, 255);
+
+}
+#footerIcons{
+  font-size: 20px;
+}
+
+#footterCopyright{
+  
+  font-size: 12px;
+}

@@ -2,11 +2,22 @@ import React from "react";
 function Footer(){
     return(
 
-        <div className="jumbotron text-center">
+        <div className="jumbotron text-center" id="footerEdit">
         
-        <p>Footer</p>
+        <div  id="footerIcons">
+        <i class="fab fa-facebook-f"></i>
+        </div>
+
+
+        <div id="footterCopyright">
+            <p>© Copyright - A quien corresponfa por "nombre de la empresa"</p>
+        </div>
         
         </div>
+
+        
+
+
     )
 
 }

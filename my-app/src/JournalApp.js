@@ -10,23 +10,23 @@ import Slider from "./comp/Slider";
 function JournalApp() {
   return (
     <div>
-      
-      <Header/>
-      <Slider/>
-      <div class="container">    
 
-          <div>
-            <InfoText/>
-            <br></br>
-            <InfoText/>
-            <br></br>
-            <InfoText/>
-            
+      <Header />
+      <Slider />
+      <div class="container">
+
+        <div>
+          <InfoText />
+          <br></br>
+          <InfoText />
+          <br></br>
+          <InfoText />
+
         </div>
       </div>
-      
-      <Footer/>
-      
+
+      <Footer />
+
     </div>
   );
 }

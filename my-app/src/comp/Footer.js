@@ -1,19 +1,17 @@
 import React from "react";
+
+//importacion de iconos
+import FaceBook from '../icons/fb.png';
+
+
 function Footer() {
     return (
 
         <div className="jumbotron" id="footerEdit">
 
             <div id="footerIcons">
-
-                <div>
-                    Iconos diseñados por
-            <a href="https://www.freepik.com" title="Freepik">Freepik</a>
-            from
-            <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
-                </div>
+                <img src={FaceBook} alt='FaceBook'></img>
             </div>
-
 
             <div id="footterCopyright">
                 <p>© Copyright - A quien corresponfa por "nombre de la empresa"</p>

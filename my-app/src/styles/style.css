@@ -6,50 +6,51 @@
   --red: #e74c3c;
 }
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: 22px sans-serif;
-    
-    height: 100vh;
+  box-sizing: border-box;
 }
-.header{
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: 22px sans-serif;
+
+  height: 100vh;
+}
+.header {
   background-color: gray;
   padding: 1rem 0 3rem 0;
 }
-.inicio{
+.inicio {
   background-image: url("https://i.pinimg.com/originals/75/3b/d7/753bd78558a661557e13243cec707ab3.jpg");
   min-height: 60rem;
   background-position: center center;
   background-size: cover;
 }
-div.barra{
+div.barra {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-img{
+img {
   width: 6rem;
   height: 6rem;
   padding-left: 1rem;
 }
-img:hover{
+img:hover {
   transform: scale(1.2);
   transition: 0.5s;
 }
 
-div.container-imagen{
-    max-width: 100%;
+div.container-imagen {
+  max-width: 100%;
 }
 
-
-div.container{
-    max-width: 100%;
+div.container {
+  max-width: 100%;
 }
 
 /* seccion para los links del navbar */
@@ -63,7 +64,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: rgb(33, 189, 40);
   font-size: 2rem;
   transition: 0.5s;
@@ -80,7 +81,7 @@ a:hover{
 .menu a {
   position: relative;
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .menu .border {
@@ -160,34 +161,31 @@ a:hover{
   transform-origin: bottom right;
 }
 
-.menu[data-animation="diagonal"] a:hover [class^=border]{
+.menu[data-animation="diagonal"] a:hover [class^="border"] {
   transition-delay: 0s;
 }
 /* seccion para los links del navbar */
 
-
 /*TITULO*/
 
-.titulo h1{
+.titulo h1 {
   display: flex;
   justify-content: center;
 }
 
 /*descripcion de Footer P*/
 
-#footerEdit{
-  font-family: verdana,Arial, Helvetica, sans-serif;
-  
+#footerEdit {
+  font-family: verdana, Arial, Helvetica, sans-serif;
+
   background-color: #1c3816;
   color: rgb(255, 255, 255);
   text-align: center;
-
 }
-#footerIcons{
+#footerIcons {
   font-size: 20px;
 }
 
-#footterCopyright{
-  
+#footterCopyright {
   font-size: 12px;
 }

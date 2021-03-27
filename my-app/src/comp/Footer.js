@@ -10,7 +10,7 @@ function Footer() {
         <div className="jumbotron" id="footerEdit">
 
             <div id="footerIcons">
-                <img src={FaceBook} alt='FaceBook'></img>
+                <img src={FaceBook} alt='FaceBook icono' width="350" class="my-4" ></img>
             </div>
 
             <div id="footterCopyright">

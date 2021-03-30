@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./comp/Header.js";
 import Footer from "./comp/Footer";
 import InfoText from "./comp/InfoText.js";
-import Slider from "./comp/Slider";
-
 
 
 function JournalApp() {
@@ -12,7 +10,7 @@ function JournalApp() {
     <div>
 
       <Header />
-      <Slider />
+
       <div class="container">
 
         <div>

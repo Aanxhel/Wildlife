@@ -10,7 +10,10 @@ function Footer() {
         <div className="jumbotron" id="footerEdit">
 
             <div id="footerIcons">
-                <img src={FaceBook} alt='FaceBook icono' width="350" class="my-4" ></img>
+                <i class="fab fa-facebook" ></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-instagram"></i>
             </div>
 
             <div id="footterCopyright">

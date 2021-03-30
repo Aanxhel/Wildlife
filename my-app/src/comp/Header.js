@@ -1,13 +1,16 @@
 import React from "react";
+import Wildlife from '../img/Wildlife.png';
+
 
 function Header() {
     return (
         <header class="header inicio">
             <div class="barra">
+            <a href="/" ><img src={Wildlife} alt="Wildlife" /></a>
                 <ul class="menu" data-animation="diagonal">
                     <li>
                         <a href="#0">
-                            Inicio
+                            Noticias
                             <span class="border border-top"></span>
                             <span class="border border-right"></span>
                             <span class="border border-bottom"></span>
@@ -16,7 +19,7 @@ function Header() {
                     </li>
                     <li>
                         <a href="#0">
-                            Quienes Somos
+                            Nosotros
                             <span class="border border-top"></span>
                             <span class="border border-right"></span>
                             <span class="border border-bottom"></span>

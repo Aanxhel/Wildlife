@@ -1,5 +1,5 @@
 :root {
-  --text-color: #f6f7fa;
+  --text-color: #000000;
   --hr-color: #26292a;
   --transition-duration: 0.4s;
   --transition-delay: 0.3s;
@@ -39,6 +39,7 @@ img {
   width: 6rem;
   height: 6rem;
   padding-left: 1rem;
+  cursor: pointer;
 }
 img:hover {
   transform: scale(1.2);
@@ -175,15 +176,40 @@ a:hover {
 
 /*descripcion de Footer P*/
 
+.jumbotron{
+  padding: 3rem;
+  
+
+}
+
+
 #footerEdit {
   font-family: verdana, Arial, Helvetica, sans-serif;
 
   background-color: #1c3816;
   color: rgb(255, 255, 255);
-  text-align: center;
+  display: flex  ;
+  flex-direction: column;
+  
+  justify-content: space-between;
+  
+  
+  align-items: center;
 }
-#footerIcons {
-  font-size: 20px;
+
+
+
+div#footerIcons{
+  width: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#footerIcons i {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+    
 }
 
 #footterCopyright {

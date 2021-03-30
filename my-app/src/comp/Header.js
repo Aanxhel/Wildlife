@@ -6,7 +6,8 @@ function Header() {
     return (
         <header class="header inicio">
             <div class="barra">
-            <a href="/" ><img src={Wildlife} alt="Wildlife" /></a>
+                <a href="/" ><img src={Wildlife} alt="Wildlife" /></a>
+
                 <ul class="menu" data-animation="diagonal">
                     <li>
                         <a href="#0">
@@ -36,6 +37,14 @@ function Header() {
                         </a>
                     </li>
                 </ul>
+            </div>
+
+
+            <div class="content-header" >
+                <h1>
+                    Wildlife Management Mexico
+                </h1>
+
             </div>
 
         </header>

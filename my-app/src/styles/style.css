@@ -38,24 +38,22 @@ div.barra {
   align-items: center;
 }
 
-@media(max-width:600px){
+@media (max-width: 600px) {
   div.barra {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
-  ul.menu{
+  ul.menu {
     display: flex;
     flex-direction: column;
-
   }
-
 }
-/*
-crear una funcion  para JS en esa funsion para clicar en el boton hamburques
-y despliegue los links, buscar onclick (html), buscar document (querySelecto o document.getElementById)
+/*crear una funcion  para JS en esa funsion para clicar 
+en el boton hamburques y despliegue los links,
+ buscar onclick (html), buscar document (querySelecto o document.getElementById)
 */
 
 img {
@@ -193,14 +191,12 @@ a:hover {
 .content-header h1 {
   text-align: center;
   margin-top: 6rem;
-  
+
   font-weight: 700;
   color: #ffffff;
   -webkit-text-stroke: 1px rgb(14, 23, 43);
-  
 }
 /*Fin Titulo*/
-
 
 /* seccion para los links del navbar */
 
@@ -241,19 +237,16 @@ div#footerIcons {
   font-size: 1rem;
 }
 
-@media(max-width:600px){
+@media (max-width: 600px) {
   div#footerIcons {
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-around;
-    
   }
 
   #footterCopyright {
     font-size: 0.8rem;
     text-align: center;
   }
-  
 }
-

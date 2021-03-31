@@ -5,9 +5,9 @@ function Header() {
     return (
         <header class="header inicio">
             <div class="barra">
-            <a href="/" ><img src={Wildlife} alt="Wildlife" /></a>
+                <a href="/" ><img src={Wildlife} alt="Wildlife" /></a>
 
-                
+
 
                 <ul class="menu" data-animation="diagonal">
                     <li>
@@ -20,7 +20,7 @@ function Header() {
                         </a>
                     </li>
 
-                    
+
                     <li>
                         <a href="#0">
                             Nosotros

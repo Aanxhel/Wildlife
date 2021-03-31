@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./comp/Header.js";
-import Footer from "./comp/Footer";
-import InfoText from "./comp/InfoText.js";
+import Header from "./components/Header.js";
+import Footer from "./components/Footer";
+import InfoText from "./components/InfoText.js";
 
 
 
